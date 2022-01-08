@@ -1,0 +1,111 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    header{    
+        display:flex;
+        flex-direction: column;
+        font-size: 3rem;
+        color: #04b430;
+        background: linear-gradient(to bottom,#FF666E, #F19C99);
+    }
+    
+    .h1hdr{
+        text-align: center;
+        position:relative;
+    }
+    .p1hdr{
+        font-size: 2rem;
+        color: #FFFFFF;
+        text-align: center;   
+        padding: 1rem;
+    }
+
+    ul{
+        display: flex;    
+        flex-direction:row;
+        justify-content: space-evenly;
+        background: linear-gradient(to bottom,#F19C99, #9E282E);
+        padding: 2em;
+        color: black;
+    }
+    
+    li:hover{
+        transform: scale(1.5);
+        
+    }
+    body{
+        background: linear-gradient(to bottom,#9E282E,#EB474F);
+        height: 100%;
+    }
+        
+    /* main{     
+        display: grid;
+        background: linear-gradient(to bottom,#EA6B66, #F19C99);
+        transition: all(0.5s)
+        }     */
+    .part1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr ;
+        background: linear-gradient(to bottom,#9E282E, #F19C99);
+        padding: 1em;
+        
+    }        
+    .card1{
+        padding: 2em;
+        width: 50ex;
+        height: 1fr;
+        border-style: ridge;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        }
+    .card2{
+        padding: 2em;
+        width: 50ex;
+        border-style: ridge;
+        /* border-color: rgb(239, 114, 250); */
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        }
+    .card3{
+        padding: 2em;
+        width: 50ex;
+        border-style: ridge;
+        /* border-color: rgb(239, 114, 250); */
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        }
+    .part1>div>img{
+            box-sizing: border-box;
+            padding: 0rem;
+            width: 60%;
+            height: 200px;
+        }
+    
+
+    .part2 {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+    }
+    aside{
+        display:flex;
+    flex-direction:column; 
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        padding:2em
+    }
+    label{
+        padding: 2px;
+    }
+
+    /* .card1 :hover{ }*/
+    /* transform: scale(1.05);//modifica el tamaño normal del elemento */
+    /* transform:skew();//inclina el elemento 
+    transform: rotate();
+    transform:translate */
