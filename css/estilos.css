@@ -17,6 +17,29 @@ nav{
     background: linear-gradient(to bottom,#220E24, #5454C5);
     
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
     header{    
         display:grid;
         grid-template-columns: 1fr ;
